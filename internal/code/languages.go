@@ -15,6 +15,7 @@ const (
 	Perl       = "perl"
 	Python     = "python"
 	Ruby       = "ruby"
+    C          = "c"
 )
 
 var Languages = map[string]Language{
@@ -49,5 +50,9 @@ var Languages = map[string]Language{
 	Perl: {
 		Extension: "pl",
 		Command:   []string{"perl"},
+	},
+	C: {
+		Extension: "c",
+		Command:   []string{"slides_c.sh"},
 	},
 }
