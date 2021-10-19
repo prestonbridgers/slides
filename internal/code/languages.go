@@ -53,6 +53,6 @@ var Languages = map[string]Language{
 	},
 	C: {
 		Extension: "c",
-		Command:   []string{"slides_c.sh"},
+		Command:   []string{". /opt/slides/slides_c.sh"},
 	},
 }
