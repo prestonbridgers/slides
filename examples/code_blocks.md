@@ -54,6 +54,18 @@ console.log("Hello, world!")
 
 ---
 
+### C
+
+```c
+#include <stdio.h>
+int main()
+{
+    printf("Hello, World!\n");
+}
+```
+
+---
+
 # Lua
 
 ```lua
